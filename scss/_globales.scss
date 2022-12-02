@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+a{
+    margin:5px;
+    padding: 3px;
+    border-radius:10%;
+    background-color: rgb(198, 199, 191);
+    text-decoration: none;
+    color: rgb(174, 17, 17);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
