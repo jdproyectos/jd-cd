@@ -1,0 +1,86 @@
+/*empieza header*/
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items:baseline;
+    align-items: center;
+    background-color: bisque;
+    background-image:linear-gradient(red,white);
+    height: 150px;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px){
+    header{
+     flex-direction: column;
+     height: 200px;
+    }   
+}  
+@media screen and (max-width:350px){
+    header{
+     height: 320px;
+    }   
+}  
+
+
+@media screen and (max-width:400px){
+    .h-ul{
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+
+.h-h1{
+    padding-top: 10px;
+    color: rgb(72, 75, 14);
+    font-size: 40px;
+}
+
+@media screen and (max-width:1100px){
+.h-h1{
+   font-size: 25px;
+    }
+}
+
+.h-h2{
+    padding-top: 9px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+@media screen and (max-width:1100px){
+    .h-h2{
+       font-size: 25px;
+        }
+    }
+@media screen and (max-width:1100px){
+     .h-h2{
+     font-size: 25px;
+      }
+}
+    
+
+nav ul li{
+    display: inline-block;
+  
+}
+a{
+    margin:5px;
+    padding: 3px;
+    border-radius:10%;
+    background-color: rgb(198, 199, 191);
+    text-decoration: none;
+    color: rgb(174, 17, 17);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(131, 0, 254);
+}
+
+
+/*finaliza header*/

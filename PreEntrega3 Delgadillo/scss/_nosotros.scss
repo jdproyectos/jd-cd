@@ -1,0 +1,37 @@
+/*empieza section nosotros*/
+
+.s-nosotros{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight:700;
+}
+
+@media screen and (max-width: 1500px){
+    .nosotros{
+     height:600px;
+}   
+}  
+
+@media screen and (max-width: 1000px){
+    .nosotros{
+     height:760px;
+}   
+}  
+
+@media screen and (max-width: 520px){
+    .nosotros{
+     height:1000px;
+}   
+}  
+
+@media screen and (max-width: 370px){
+    .nosotros{
+     height:1150px;
+}   
+}  
+
+@media screen and (max-width: 500px){
+    .s-i1{
+        width: 100%;
+}   
+}

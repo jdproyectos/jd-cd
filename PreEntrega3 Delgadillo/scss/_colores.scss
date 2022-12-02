@@ -1,0 +1,101 @@
+/*empieza section colores*/
+
+.color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.pintura-verde{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(71, 208, 126);
+}
+
+.pintura-rojo{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-gris{
+    background-color: rgb(105, 105, 105);
+    height: 100%;
+    width: 100%;
+}
+.pintura-blanco{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(247, 247, 247);
+}
+
+.pintura-azul{
+    background-color: rgb(10, 19, 143);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-negro{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-amarillo{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(233, 255, 124);
+}
+
+.pintura-mostaza{
+    background-color: rgb(109, 113, 31);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-celeste{
+    background-color: rgb(84, 197, 208);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-violeta{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(201, 31, 193);
+}
+
+.pintura-cobre{
+    background-color: rgb(146, 7, 7);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-marron{
+    background-color: rgb(77, 45, 12);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-fucsia{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(237, 6, 156);
+}
+
+.pintura-z{
+    background-color: rgb(171, 116, 116);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-y{
+    background-color: rgb(36, 161, 29);
+    height: 100%;
+    width: 100%;
+}
+
+.pintura-x{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(10, 42, 10);
+}
