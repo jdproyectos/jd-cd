@@ -1,0 +1,49 @@
+/*footer empieza*/
+
+footer{
+    background-image:linear-gradient(blue,green);
+    height: 250px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+    footer{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    footer{
+        height: 600px;
+    }
+}
+
+.f-h3{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(7, 29, 21);
+    padding: 20px;
+    border-radius: 55px;
+    color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-size: 20px;
+}
+
+.f-p1{
+    margin: 5px;
+    display: inline-block;
+    background-color: rgb(205, 225, 217);
+    padding: 10px;
+    border-radius: 55px;
+    font-style: italic;
+    font-size: 17px;   
+}
+
+.f-p2{
+    padding-top: 5px;
+    font-weight:bold;
+    font-size: 20px;
+    color: rgb(249, 230, 20);
+    font-style: italic;
+} 
